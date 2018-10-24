@@ -16,7 +16,7 @@
       - go: tip
     fast_finish: true
   install:
-    - go get github.com/golang/lint/golint
+    - go get golang.org/x/lint/golint
     - go get honnef.co/go/tools/cmd/staticcheck
   script:
     - go build -v
